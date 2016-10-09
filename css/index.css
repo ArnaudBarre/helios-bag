@@ -1,0 +1,98 @@
+/* Colors : #2DB573 #9AD085 #E9EC9B
+Colors 2 : #2FAC66 #7EBB4F #DBDB00 */
+
+.navbar {
+    background-color: #2FAC66;
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li a:hover, .navbar-nav li.active a {
+    color: #2FAC66;
+    background-color: white;
+}
+
+.navbar-toggle {
+    margin-right: 0;
+}
+
+.navbar .icon-bar, .navbar-toggle:hover {
+    background-color: white;
+}
+
+.navbar-toggle:hover .icon-bar {
+    background-color: #2FAC66;
+}
+
+.jumbotron {
+    background: url('../img/moutain.jpg') center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.jumbotron p {
+    margin-bottom: 10vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    padding-top: 50px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #2FAC66;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li {
+    border-color: #2FAC66;
+}
+
+.carousel-indicators li.active {
+    background-color: #2FAC66;
+}
+
+#team {
+    padding-bottom: 50px;
+}
+
+#title, #design, #slider {
+    margin-top: 15vh;
+}
+
+#contact {
+    color: white;
+    background-color: #2FAC66;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#listContact {
+    margin-top: 50px;
+}
+
+#contact a {
+    color: white;
+}
+
+#goTop {
+    margin-top: 50px;
+    font-size: 30px;
+}
